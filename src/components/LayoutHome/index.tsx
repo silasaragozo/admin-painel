@@ -2,7 +2,8 @@ import React from "react";
 import { useScreen } from "../../providers/Screen";
 import SideBar from "../SideBar";
 import * as S from "./style";
-import { HiUserCircle } from "react-icons/hi";
+import Avatar from "../Avatar";
+import { HiBell } from "react-icons/hi";
 interface ILayoutHome {
   children?: any;
 }
@@ -15,11 +16,14 @@ const LayoutHome = (props: ILayoutHome) => {
         <SideBar />
         <S.Content>
           <S.NavBar>
-          <h2> {showingHome} </h2>
-          <HiUserCircle size={32}/>
+            <h2> {showingHome} </h2>
+            <S.NavRight>
+              <HiBell size={32} />
+              <Avatar />
+            </S.NavRight>
           </S.NavBar>
-        
-          {props.children}</S.Content>
+          {props.children}
+        </S.Content>
       </S.Container>
     </>
   );

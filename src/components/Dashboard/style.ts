@@ -2,7 +2,8 @@ import styled, { css } from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  width: calc(100vw - 400px);
+  justify-content: space-between;
+
 `;
 export const Content = styled.div`
   padding: 3rem;
@@ -13,9 +14,4 @@ export const NavBar = styled.div`
   display: flex;
   justify-content: space-between;
   top: -2rem;
-`;
-export const NavRight = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 1rem;
 `;

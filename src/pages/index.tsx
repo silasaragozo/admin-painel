@@ -1,16 +1,28 @@
 import React, { useRef } from "react";
+import Dashboard from "../components/Dashboard";
 import LayoutHome from "../components/LayoutHome";
+import { useScreen } from "../providers/Screen";
 
 export default function Home() {
+  const { setShowingHome, showingHome } = useScreen();
   return (
     <>
       <LayoutHome>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          odio, explicabo perspiciatis dolore nam perferendis unde reiciendis
-          distinctio aperiam quibusdam nisi molestias ipsam recusandae fugiat
-          laborum facere. Ipsum, adipisci non.
-        </p>
+        {showingHome === "Dashboard" && (
+          <>
+            <Dashboard/>
+          </>
+        )}
+        {showingHome === "Folders" && (
+          <>
+            <h1>Folders</h1>
+          </>
+        )}
+        {showingHome === "Settings" && (
+          <>
+            <h1>Settings</h1>
+          </>
+        )}
       </LayoutHome>
     </>
   );

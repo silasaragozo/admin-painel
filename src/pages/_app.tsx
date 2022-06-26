@@ -16,6 +16,10 @@ export default function App({ Component, pageProps }: AppProps) {
           <>
             <Head>
               <title>Admin Painel</title>
+              <style>
+                @import
+                url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+              </style>
             </Head>
             <Component {...pageProps} />
             <GlobalStyle />

@@ -48,22 +48,15 @@ export const IconList = styled.div<IconListProps>`
   display: flex;
   justify-content: center;
   color: ${(props) => (props.active ? props.theme.primary : props.theme.text)};
-  animation-name: fadeIn;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s;
-  opacity: 1;
-  &:active {
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-  }
+  -webkit-transition: 0.3s ease-in;
+     -moz-transition: 0.3s ease-in;
+     -o-transition: 0.3s ease-in;
+     transition: 0.3s ease-in;
   &:hover {
+    -webkit-transition: 0.3s ease-in;
+     -moz-transition: 0.3s ease-in;
+     -o-transition: 0.3s ease-in;
+     transition: 0.3s ease-in;
     color: ${(props) => props.theme.primary};
     cursor: pointer;
   }
