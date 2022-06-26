@@ -10,5 +10,6 @@ const theme = {
   //TextColor
   text: "#000035",
   textWhite: "#FFFFFF",
+  textMuted: "#71706E",
 };
 export default theme;

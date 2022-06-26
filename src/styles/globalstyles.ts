@@ -6,7 +6,7 @@ export default createGlobalStyle`
     background: ${(props) => props.theme.bgDefault};
     height: 100vh;
     width: 100vh;
-
+    font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }

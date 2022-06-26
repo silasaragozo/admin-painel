@@ -7,6 +7,9 @@ const nextConfig = {
     styledComponents: true,
     swcMinify: false // it should be false by default 
   },
+  images: {
+    domains: ['images.unsplash.com']
+}
 }
 module.exports = nextConfig
 

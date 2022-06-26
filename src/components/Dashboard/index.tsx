@@ -1,18 +1,24 @@
 import React from "react";
 import Banner from "../Banner";
-import Drawer from "./Drawer";
+import Drawer from "../Drawer";
 import * as S from "./style";
-import goalImg from "../../assets/girl.png";
-
+import goalImg from "../../assets/tasks/task-01.jpg";
+import CardTask from "../Cards/CardTask";
+import tasks from "../../../src/mock/tasks.json" 
 export default function Dashboard() {
   return (
     <S.Container>
-      
       <S.Content>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in id dicta soluta doloribus natus! At placeat amet cupiditate numquam asperiores nobis voluptates, voluptatem non magni aliquam doloribus inventore ad?</p>
-       
+        <S.RowBetween>
+          <h2>Your tasks</h2>
+          <p>See more</p>
+        </S.RowBetween>
+        <S.ListRow>
+          {tasks?.data?.map((task) =>
+          <CardTask title={task?.title} img={task?.img} subTitle={task?.description} />  
+          )}        
+        </S.ListRow>
       </S.Content>
-      
     </S.Container>
   );
 }
