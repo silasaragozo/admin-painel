@@ -19,6 +19,7 @@ export default function Dashboard() {
         <S.ListRow>
           {tasks?.data?.map((task) => (
             <CardTask
+            key={task?.title}
               title={task?.title}
               img={task?.img}
               subTitle={task?.description}

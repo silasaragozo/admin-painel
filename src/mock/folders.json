@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "title": "Folder name 01",
+      "color": "#ff8040"
+    },
+    {
+      "title": "Folder name 03",
+      "color": "#16e936"
+    },
+    {
+      "title": "Folder name 04",
+      "color": "#8000ff"
+    },
+    {
+      "title": "Folder name 05",
+      "color": "#ff00ff"
+    },
+    {
+      "title": "Folder name 06",
+      "color":" #dce100"
+    }
+  ]
+}

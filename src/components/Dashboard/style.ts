@@ -36,6 +36,7 @@ export const RowBetween = styled.div`
 
 export const ListRow = styled.div`
   padding-top: 1rem;
+  padding-bottom: 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr ;

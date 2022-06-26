@@ -8,7 +8,7 @@ const nextConfig = {
     swcMinify: false // it should be false by default 
   },
   images: {
-    domains: ['images.unsplash.com']
+    domains: ['images.unsplash.com', 'source.unsplash.com']
 }
 }
 module.exports = nextConfig

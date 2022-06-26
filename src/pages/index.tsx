@@ -16,7 +16,9 @@ export default function Home() {
         )}
         {showingHome === "Folders" && (
           <>
+           <Animation>
             <h1>Folders</h1>
+            </Animation>
           </>
         )}
         {showingHome === "Settings" && (

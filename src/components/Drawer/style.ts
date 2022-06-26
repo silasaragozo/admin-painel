@@ -16,3 +16,14 @@ export const Container = styled.div`
     border-radius: 1rem;
   }
 `;
+ export const Folders = styled.div`
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ `
+ export const Row = styled.div`
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ width: 100%;
+`
