@@ -14,28 +14,24 @@ export default function Drawer() {
     <>
       <Animation>
         <S.Container>
-          {!showingTasks || showingHome === "Folders" && (
-            <>
-              <h2>You folders</h2>
-              {folders?.data.map((folder) => (
-                <S.Folders>
-                  <S.Row>
-                    <HiFolder size={64} color={folder?.color} />
-                    <h2> {folder?.title}</h2>
-                  </S.Row>
-                </S.Folders>
-              ))}
-            </>
-          )}
-          {showingHome != "Folders" &&
           <>
-          <h1> {showingTasks?.title}</h1>
-          {showingTasks?.img  && (
-            <Image src={showingTasks?.img} alt="" height={280} width={300} />
-          )}
-          <p>{showingTasks?.description}</p>
+            <h2> {showingTasks?.title}</h2>
+            {showingTasks?.img && (
+              <Image src={showingTasks?.img} alt="" height={280} width={300} />
+            )}
+            <p>{showingTasks?.description}</p>
           </>
-        }
+          <>
+            <h2>You folders</h2>
+            {folders?.data.map((folder) => (
+              <S.Folders>
+                <S.Row>
+                  <HiFolder size={64} color={folder?.color} />
+                  <h2> {folder?.title}</h2>
+                </S.Row>
+              </S.Folders>
+            ))}
+          </>
         </S.Container>
       </Animation>
     </>

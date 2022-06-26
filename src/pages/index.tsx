@@ -11,19 +11,21 @@ export default function Home() {
       <LayoutHome>
         {showingHome === "Dashboard" && (
           <Animation>
-            <Dashboard/>
+            <Dashboard />
           </Animation>
         )}
         {showingHome === "Folders" && (
           <>
-           <Animation>
-            <h1>Folders</h1>
+            <Animation>
+              <h1>Folders</h1>
             </Animation>
           </>
         )}
         {showingHome === "Settings" && (
           <>
-            <h1>Settings</h1>
+            <Animation>
+              <h1>Settings</h1>
+            </Animation>
           </>
         )}
       </LayoutHome>
