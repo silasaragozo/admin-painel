@@ -2,24 +2,23 @@
   "data": [
     {
       "title": "Task 01",
-      "description": "Lorem ipsum dolor sit amet, consectetur adip",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laborum sequi minus sint reiciendis minima nostrum vitae earum? Laboriosam enim est consectetur sed sapiente earum libero soluta labore distinctio ipsa!",
       "img": "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
     },
     {
       "title": "Task 02",
-      "description": "Lorem ipsum dolor sit amet, consectetur adip",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laborum sequi minus sint reiciendis minima nostrum vitae earum? Laboriosam enim est consectetur sed sapiente earum libero soluta labore distinctio ipsa!",
       "img": "https://images.unsplash.com/photo-1533122250115-6bb28e9a48c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
     },
     {
       "title": "Task 03",
-      "description": "Lorem ipsum dolor sit amet, consectetur adip",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laborum sequi minus sint reiciendis minima nostrum vitae earum? Laboriosam enim est consectetur sed sapiente earum libero soluta labore distinctio ipsa!",
       "img": "https://images.unsplash.com/photo-1656213128951-b92f52d1f2f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
     },
     {
       "title": "Task 04",
-      "description": "Lorem ipsum dolor sit amet, consectetur adip",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laborum sequi minus sint reiciendis minima nostrum vitae earum? Laboriosam enim est consectetur sed sapiente earum libero soluta labore distinctio ipsa!",
       "img": "https://images.unsplash.com/photo-1506567859980-33c9c423649f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
     }
-
   ]
 }

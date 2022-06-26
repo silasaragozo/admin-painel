@@ -6,6 +6,7 @@ import { ThemeProvider } from "styled-components";
 import GlobalStyle from "../styles/globalstyles";
 import theme from "../styles/theme";
 import { ScreenProvider } from "../providers/Screen";
+import { TasksProvider } from "../providers/Tasks";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
       {/* @ts-ignore */}
       <ThemeProvider theme={theme}>
         <ScreenProvider>
+        <TasksProvider>
           <>
             <Head>
               <title>Admin Painel</title>
@@ -24,6 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <Component {...pageProps} />
             <GlobalStyle />
           </>
+          </TasksProvider>
         </ScreenProvider>
       </ThemeProvider>
     </>

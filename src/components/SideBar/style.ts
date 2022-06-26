@@ -9,6 +9,7 @@ export const Container = styled.div`
   height: 100vh;
   background: ${(props) => props.theme.bgSecondary};
   max-width: 100px;
+  min-width: 100px;
   left: 0;
   display: flex;
   justify-content: space-between;

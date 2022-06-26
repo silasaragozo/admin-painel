@@ -6,7 +6,7 @@ export const Container = styled.div`
   
 `;
 export const Content = styled.div`
-  padding-left: 3rem;
+  padding-left: 2rem;
   padding-right: 3rem;
   padding-top: 3rem;
   width: 100%;

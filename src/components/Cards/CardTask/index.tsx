@@ -5,11 +5,12 @@ interface ICardTaskProps {
   title: string;
   subTitle?: string;
   img?: string;
+  onClick?: () => void;
 }
-const CardTask = ({ title, subTitle, img }: ICardTaskProps) => {
+const CardTask = ({ title, subTitle, img, onClick}: ICardTaskProps) => {
   return (
     <>
-      <S.Content>
+      <S.Content onClick={onClick}>
         <S.Img>
           <Image src={img} alt="" height={180} width={300} />
         </S.Img>
