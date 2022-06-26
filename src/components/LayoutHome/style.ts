@@ -3,10 +3,14 @@ import styled, { css } from "styled-components";
 export const Container = styled.div`
   display: flex;
   width: calc(100vw - 400px);
+  
 `;
 export const Content = styled.div`
-  padding: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
   width: 100%;
+  
 `;
 export const NavBar = styled.div`
   position: relative;

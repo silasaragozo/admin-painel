@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Animation from "../components/Animation";
 import Dashboard from "../components/Dashboard";
 import LayoutHome from "../components/LayoutHome";
 import { useScreen } from "../providers/Screen";
@@ -9,9 +10,9 @@ export default function Home() {
     <>
       <LayoutHome>
         {showingHome === "Dashboard" && (
-          <>
+          <Animation>
             <Dashboard/>
-          </>
+          </Animation>
         )}
         {showingHome === "Folders" && (
           <>

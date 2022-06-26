@@ -10,7 +10,7 @@ export const Container = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 1rem;
   padding: 2rem 2rem 2rem 5rem;
   justify-content: center;
@@ -36,6 +36,7 @@ export const Img = styled.div`
 
   right: 10%;
   position: absolute;
+  z-index: 9999;
   bottom: -4px;
   @media only screen and (max-width: 1100px) {
     display: none;

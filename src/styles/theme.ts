@@ -1,6 +1,7 @@
 const theme = {
   //Colors
   primary: "#592FE2",
+  secondary: "#ffd966",
 
   //Background
   bgDefault: "#F0F4F7",

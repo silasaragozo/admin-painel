@@ -3,7 +3,7 @@ import React from "react";
 import * as S from "./style";
 
 interface IButtonProps {
-  children?: string;
+  children?: any;
   onClick?: () => void;
 }
 const Button = ({children, onClick}: IButtonProps) => {

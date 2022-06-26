@@ -4,6 +4,11 @@ import SideBar from "../SideBar";
 import * as S from "./style";
 import Avatar from "../Avatar";
 import { HiBell } from "react-icons/hi";
+import goalImg from "../../assets/girl.png";
+import Banner from "../Banner";
+import Dashboard from "../Dashboard";
+import Drawer from "../Drawer";
+import Animation from "../Animation";
 interface ILayoutHome {
   children?: any;
 }
@@ -22,7 +27,18 @@ const LayoutHome = (props: ILayoutHome) => {
               <Avatar />
             </S.NavRight>
           </S.NavBar>
+          {showingHome === "Dashboard" && (
+            <Animation>
+            <Banner
+              title="Goals achieved"
+              subTitle="Check all results "
+              img={goalImg}
+              buttonTitle="See all results"
+            />
+            </Animation>
+          )}
           {props.children}
+          <Drawer></Drawer>
         </S.Content>
       </S.Container>
     </>
